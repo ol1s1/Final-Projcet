@@ -372,6 +372,48 @@
 <a href="#" class="">Shiko më shumë rreth agjencisë</a>
 </div><br><br><br>
 
+
+
+
+
+	<div id="container">
+      <div id="search">
+        <label for="searchInput"
+          >Gjej <i class="fa fa-search"></i>Qfaredo</label
+        >
+
+        <input id="searchInput" type="text" placeholder="Search" />
+      </div>
+
+      <ul id="results">
+        <li class="name">Rezervimet</li>
+
+        <li class="name">Nisjet</li>
+
+        <li class="name">Arritjet</li>
+
+        <li class="name">Bagazhet</li>
+
+        <li class="name">Fluturimet</li>
+
+        <li class="name">Siguria</li>
+
+        <li class="name">Kontakti</li>
+
+        <li class="name">Rreth Nesh</li>
+
+        <li class="name">Qytet e nisjes</li>
+
+        <li class="name">Destinacionet</li>
+
+        <!-- <li class="name">David</li> -->
+      </ul>
+    </div>
+
+
+
+
+
 <div class="krejtt">
 
 
@@ -452,12 +494,62 @@
 	<a href="#" class="aa11">Konakti</a>
 </div>
 <div class="foot">
+
+
 	<footer>
 		<p id="foo">Sharr Travel është agjenci turistike e regjistruar në Kosovë me liçencë operimi brenda dhe jashtë vendit.
 			 Për rezervime<br> dhe konfirmime ju lutem kontaktoni zyret tona përmes faqes së kontaktit.  Materialet e publikuara në këtë faqe janë <br> pronë e Sharr 
 			 Travel dhe nuk mund të përdoren pa autorizim.</p>
-			 <img src="img/sharr3.png" alt="">
+			 <h1 style="margin-left: 165px; color: white;">Koha aktuale ne zonen tuaj</h1>
+			 <h1 style="margin-left: 280px; color: white;" id="clock"></h1>
+
+	<script>
+		// function to update the clock every second
+		function updateTime() {
+			// create a new Date object
+			const now = new Date();
+
+			// get the hours, minutes, and seconds
+			const hours = now.getHours();
+			const minutes = now.getMinutes();
+			const seconds = now.getSeconds();
+
+			// format the time as a string
+			const time = `${hours} : ${minutes} : ${seconds}`;
+
+			// update the clock element with the current time
+			document.getElementById("clock").innerHTML = time;
+		}
+
+		// update the clock every second
+		setInterval(updateTime, 1000);
+	</script> 
+			 
+
+
+<!-- 			 <h1 style="margin-left: 160px; color: white;">Koha aktuale ne zonen tuaj</h1>
+<p id="p1" style="margin-left: 280px;"></p>
+<script>
+	var date = new Date();
+	var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
+	var current_time = date.getHours()+":"+date.getMinutes()+":"+ date.getSeconds();
+	var date_time = current_date+" "+current_time;	
+	document.getElementById("p1").innerHTML = date_time;
+
+</script>
+ -->
+
+<img src="img/sharr3.png" alt="">
+
+
+
+
+
+
 	</footer>
+
+
+
 	<div class="majtt">
 		<p id="bashkohu">Bashkohu me ne</p>
 		<p>
@@ -472,7 +564,6 @@
 <!-- https://www.facebook.com/SharrTravel -->
 
 		
-
 
 
 

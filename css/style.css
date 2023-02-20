@@ -32,7 +32,7 @@ body {
 
 
 .input form {
-  margin-left: 600px;
+  margin-left: 700px;
   /* margin-top: 10px; */
   align-items: center;
   align-content: center;
@@ -704,7 +704,7 @@ body {
 .next , .preview {
 	cursor: pointer;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	padding: 20px;
 
 }
@@ -896,7 +896,7 @@ body {
 	padding-top: 10px;
 	text-align: center;
 	width: 400px;
-	margin-left: 1145px;
+	margin-left: 1129px;
 
 }
 
@@ -922,7 +922,7 @@ body {
 	width: 300px;
 	height: 55px;
 	padding-top: 18px;
-	margin-left: 280px;
+	margin-left: 360px;
 	text-align: center;
 	font-weight: bold;
 	border-radius: 5px;	
@@ -1092,7 +1092,7 @@ body {
 	/* background: #c61e25; */
 	background-repeat: no-repeat;
 	background-size: 100%;
-  margin-left: 25px;
+  margin-left: 65px;
 }
 
 
@@ -1363,7 +1363,7 @@ body {
 
 
 #tradita {
-  margin-left: 450px;
+  margin-left: 550px;
   margin-top: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -1371,7 +1371,7 @@ body {
 
 .linku {
   
-  margin-left: 620px;
+  margin-left: 720px;
   width: 400px;
   height: 50px;
   background-color: red;
@@ -1455,7 +1455,7 @@ body {
 .pjesa-majt {
   border: 0.1px solid black;
   width: 700px;
-  margin-left: 240px;
+  margin-left: 310px;
 }
 
 .pjesa1 {
@@ -1603,8 +1603,10 @@ body {
   text-decoration: none;
   color: white;
   background-color: #c61e25;
-  margin-left: 50px;
+  margin-left: 80px;
 }
+
+
 
 
 
@@ -1650,4 +1652,81 @@ body {
 
 .input1 {
   width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#container {
+
+width: 50%;
+
+margin: 0 auto;
+
+margin-top: 20px;
+
+background-color: red;
+
+}
+
+#search {
+
+display: flex;
+
+padding: 20px;
+
+background-color: red;
+
+}
+
+#search label {
+
+font-size: 24px;
+
+font-weight: bold;
+
+margin-right: 15px;
+
+}
+
+#searchInput {
+
+display: inherit;
+
+width: 100%;
+
+padding: 1em 1em;
+
+}
+
+#results {
+
+display: block;
+
+padding: 10px;
+
+}
+
+#results .name {
+
+width: 100%;
+
+padding: 10px 0;
+
+text-align: center;
+
+background-color: white;
+
+margin-bottom: 10px;
+
+list-style-type: none;
+
 }
